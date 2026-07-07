@@ -35,9 +35,26 @@ while True:
 
     elif user == "how are you":
         print("chatbot:I'm doing great! Thanks for asking. How can I help you today?")
-        
+
     elif user == "what is your name":
         print("Chatbot: My name is AI Chatbot. I was created as part of the Decode Labs AI Internship Project.")
 
     elif user == "who are you":
         print("Chatbot: I am a rule-based AI chatbot designed to answer predefined questions.")
+
+    elif user == "help" or user == "commands" or user == "menu":
+        print("\n========== Available Commands ==========")
+        print("• hi")
+        print("• hello")
+        print("• hey")
+        print("• good morning")
+        print("• good evening")
+        print("• how are you")
+        print("• what is your name")
+        print("• who are you")
+        print("• date")
+        print("• time")
+        print("• thanks")
+        print("• thank you")
+        print("• bye")
+        print("========================================")    
