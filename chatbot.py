@@ -16,3 +16,4 @@ print("=" * 50)
 
 while True:
     user = input("\nYou: ")
+    user = user.lower()
