@@ -17,3 +17,18 @@ print("=" * 50)
 while True:
     user = input("\nYou: ")
     user = user.lower()
+
+    if user == "hi":
+        print("Chatbot: Hi! Nice to meet you.")
+
+    elif user == "hello":
+        print("Chatbot: Hello! How can I assist you today?")
+
+    elif user == "hey":
+        print("Chatbot: Hey! Hope you're having a great day.")
+
+    elif user == "good morning":
+        print("Chatbot: Good morning! Wishing you a wonderful day ahead.")
+
+    elif user == "good evening":
+        print("Chatbot: Good evening! Hope you had a productive day.")
