@@ -62,4 +62,7 @@ while True:
         print("========================================")  
     elif user == "date":
         today = datetime.now().strftime("%d-%m-%Y")
-        print(f"Chatbot: Today's date is {today}")      
+        print(f"Chatbot: Today's date is {today}") 
+    elif user == "time":
+        current_time = datetime.now().strftime("%I:%M:%S %p")
+        print(f"Chatbot: The current time is {current_time}")         
