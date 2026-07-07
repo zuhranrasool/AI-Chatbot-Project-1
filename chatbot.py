@@ -13,3 +13,6 @@ print("I can answer simple predefined questions.")
 print("Type 'help' to see available commands.")
 print("Type 'bye' anytime to exit the chatbot.")
 print("=" * 50)
+
+while True:
+    user = input("\nYou: ")
