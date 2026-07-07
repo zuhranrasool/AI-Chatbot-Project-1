@@ -1,3 +1,5 @@
+from datetime import datetime 
+
 # -----------------------------------------
 # AI Chatbot Project 1
 # Decode Labs AI Internship
@@ -57,4 +59,7 @@ while True:
         print("• thanks")
         print("• thank you")
         print("• bye")
-        print("========================================")    
+        print("========================================")  
+    elif user == "date":
+        today = datetime.now().strftime("%d-%m-%Y")
+        print(f"Chatbot: Today's date is {today}")      
