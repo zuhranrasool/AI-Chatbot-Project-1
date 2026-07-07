@@ -75,4 +75,9 @@ while True:
     
     elif user == "bye" or user == "goodbye" or user == "exit" or user == "quit":
         print("Chatbot: Goodbye! Have a wonderful day. 👋")
-    break    
+    
+        break
+
+    else:
+        print("Chatbot: Sorry, I don't understand that command.")
+        print("Chatbot: Type 'help' to see the list of available commands.")
