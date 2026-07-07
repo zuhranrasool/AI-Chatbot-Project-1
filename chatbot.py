@@ -72,3 +72,7 @@ while True:
 
     elif user == "thank you" or user == "thankyou":
         print("Chatbot: You're most welcome! Let me know if you need anything else.")        
+    
+    elif user == "bye" or user == "goodbye" or user == "exit" or user == "quit":
+        print("Chatbot: Goodbye! Have a wonderful day. 👋")
+    break    
