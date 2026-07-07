@@ -32,3 +32,6 @@ while True:
 
     elif user == "good evening":
         print("Chatbot: Good evening! Hope you had a productive day.")
+
+    elif user == "how are you":
+        print("chatbot:I'm doing great! Thanks for asking. How can I help you today?")
