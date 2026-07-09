@@ -26,30 +26,30 @@ while True:
 
     # Handle greeting commands
     if user == "hi":
-        print("Chatbot: Hi! Nice to meet you.")
+        print("Chatbot: Hi! Nice to meet you. How can I assist you today?")
 
     elif user == "hello":
-        print("Chatbot: Hello! How can I assist you today?")
+        print("Chatbot: Hello! Welcome! How can I help you today?")
 
     elif user == "hey":
-        print("Chatbot: Hey! Hope you're having a great day.")
+        print("Chatbot: Hey! It's great to see you. How can I help?")
 
     elif user == "good morning":
-        print("Chatbot: Good morning! Wishing you a wonderful day ahead.")
+        print("Chatbot: Good morning! I hope you have a wonderful and productive day.")
 
     elif user == "good evening":
-        print("Chatbot: Good evening! Hope you had a productive day.")
+        print("Chatbot: Good evening! I hope you're having a relaxing evening.")
 
     # Handle "How are you?" command
     elif user == "how are you":
-        print("Chatbot: I'm doing great! Thanks for asking. How can I help you today?")
+        print("Chatbot: I'm doing great! Thanks for asking. I'm always ready to help you.")
 
     # Handle chatbot identity questions
     elif user == "what is your name":
-        print("Chatbot: My name is AI Chatbot. I was created as part of the Decode Labs AI Internship Project.")
+        print("Chatbot: My name is AI Chatbot. I was developed as part of the Decode Labs AI Internship Project.")
 
     elif user == "who are you":
-        print("Chatbot: I am a rule-based AI chatbot designed to answer predefined questions.")
+        print("Chatbot: I am a rule-based AI chatbot designed to answer predefined questions and assist users.")
 
     # Display the help menu
     elif user == "help" or user == "commands" or user == "menu":
@@ -81,17 +81,17 @@ while True:
 
     # Handle thank you messages
     elif user == "thanks":
-        print("Chatbot: You're welcome! Happy to help.")
+        print("Chatbot: You're very welcome! I'm always happy to help.")
 
     elif user == "thank you" or user == "thankyou":
-        print("Chatbot: You're most welcome! Let me know if you need anything else.")
+        print("Chatbot: You're most welcome! Feel free to ask if you need anything else.")
 
     # Exit the chatbot
     elif user == "bye" or user == "goodbye" or user == "exit" or user == "quit":
-        print("Chatbot: Goodbye! Have a wonderful day. 👋")
+        print("Chatbot: Goodbye! Thank you for chatting with me. Have a wonderful day!")
         break
 
     # Handle unknown commands
     else:
-        print("Chatbot: Sorry, I don't understand that command.")
-        print("Chatbot: Type 'help' to see the list of available commands.")
+        print("Chatbot: Sorry, I couldn't understand your request.")
+        print("Chatbot: Please type 'help' to see the list of available commands.")
