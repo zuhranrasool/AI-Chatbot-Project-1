@@ -1,4 +1,4 @@
-from datetime import datetime 
+from datetime import datetime
 
 # -----------------------------------------
 # AI Chatbot Project 1
@@ -25,40 +25,33 @@ while True:
     user = user.lower()
 
     # Handle greeting commands
-
-    # Handle "Hi" command
     if user == "hi":
         print("Chatbot: Hi! Nice to meet you.")
 
-    # Handle "Hello" command
     elif user == "hello":
         print("Chatbot: Hello! How can I assist you today?")
 
-    # Handle "hey" commands 
     elif user == "hey":
         print("Chatbot: Hey! Hope you're having a great day.")
 
-    # Handle " Good Morning" command
     elif user == "good morning":
         print("Chatbot: Good morning! Wishing you a wonderful day ahead.")
 
-    # Hadle "Good Evening" command
     elif user == "good evening":
         print("Chatbot: Good evening! Hope you had a productive day.")
 
-    # Handle "How are you?" command     
+    # Handle "How are you?" command
     elif user == "how are you":
-        print("chatbot:I'm doing great! Thanks for asking. How can I help you today?")
+        print("Chatbot: I'm doing great! Thanks for asking. How can I help you today?")
 
-    # Handle "chatbot identity" commands 
+    # Handle chatbot identity questions
     elif user == "what is your name":
         print("Chatbot: My name is AI Chatbot. I was created as part of the Decode Labs AI Internship Project.")
 
-    # Hanndle "Again identiy" commands 
     elif user == "who are you":
         print("Chatbot: I am a rule-based AI chatbot designed to answer predefined questions.")
 
-    # Handle "Help, Commands, and menu commands" commands
+    # Display the help menu
     elif user == "help" or user == "commands" or user == "menu":
         print("\n========== Available Commands ==========")
         print("• hi")
@@ -74,33 +67,31 @@ while True:
         print("• thanks")
         print("• thank you")
         print("• bye")
-        print("========================================") 
+        print("========================================")
 
-    # Handle "Date" commands      
+    # Display the current date
     elif user == "date":
         today = datetime.now().strftime("%d-%m-%Y")
-        print(f"Chatbot: Today's date is {today}") 
+        print(f"Chatbot: Today's date is {today}")
 
-    # Handle "Time" command    
+    # Display the current time
     elif user == "time":
         current_time = datetime.now().strftime("%I:%M:%S %p")
-        print(f"Chatbot: The current time is {current_time}") 
+        print(f"Chatbot: The current time is {current_time}")
 
-    # Hanle "Thanks" command
+    # Handle thank you messages
     elif user == "thanks":
         print("Chatbot: You're welcome! Happy to help.")
 
-    # Handle "Thankyou" command
     elif user == "thank you" or user == "thankyou":
         print("Chatbot: You're most welcome! Let me know if you need anything else.")
-            
-    # Handle "Exit" commands
+
+    # Exit the chatbot
     elif user == "bye" or user == "goodbye" or user == "exit" or user == "quit":
         print("Chatbot: Goodbye! Have a wonderful day. 👋")
-    
         break
 
-    # Handle "Unknown" commands
+    # Handle unknown commands
     else:
         print("Chatbot: Sorry, I don't understand that command.")
         print("Chatbot: Type 'help' to see the list of available commands.")
